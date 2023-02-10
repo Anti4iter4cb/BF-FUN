@@ -56,3 +56,81 @@ Character:SetPrimaryPartCFrame(CFrame.new(-12547.8418, 337.203308, -7496.11816, 
       		
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "RACE DOORS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "СВОЮ РАСУ НАЙДИ ДИБИЛ"
+})
+
+Tab:AddButton({
+	Name = "CYBORG",
+	Callback = function()
+      		print("button pressed")
+			local player = game.Players.LocalPlayer
+
+
+local Character = player.Character
+
+
+local Humrp = player.Character:FindFirstChild("HumanoidRootPart")
+
+
+Character:SetPrimaryPartCFrame(CFrame.new(28491.9902, 14895.668, -422.928345, 0.066130653, 5.01738491e-08, 0.99781096, -9.1883301e-08, 1, -4.41942909e-08, -0.99781096, -8.87595704e-08, 0.066130653))
+	end
+  })
+  
+  Tab:AddButton({
+	Name = "HUMAN",
+	Callback = function()
+      		print("button pressed")
+			local player = game.Players.LocalPlayer
+
+
+local Character = player.Character
+
+
+local Humrp = player.Character:FindFirstChild("HumanoidRootPart")
+
+
+Character:SetPrimaryPartCFrame(CFrame.new(29237.5547, 14890.6689, -206.418503, -0.056165155, 2.88309288e-09, -0.99842149, 3.05270547e-08, 1, 1.17038357e-09, 0.99842149, -3.04131333e-08, -0.056165155))
+	end
+  })
+  
+    Tab:AddButton({
+	Name = "FISHMAN",
+	Callback = function()
+      		print("button pressed")
+			local player = game.Players.LocalPlayer
+
+
+local Character = player.Character
+
+
+local Humrp = player.Character:FindFirstChild("HumanoidRootPart")
+
+
+Character:SetPrimaryPartCFrame(CFrame.new(28223.6641, 14891.0605, -212.944687, 0.0621557236, -1.2717345e-07, 0.998066485, 4.57623877e-08, 1, 1.24569922e-07, -0.998066485, 3.79311693e-08, 0.0621557236))
+	end
+  })
+  
+      Tab:AddButton({
+	Name = "MINK",
+	Callback = function()
+      		print("button pressed")
+			local player = game.Players.LocalPlayer
+
+
+local Character = player.Character
+
+
+local Humrp = player.Character:FindFirstChild("HumanoidRootPart")
+
+
+Character:SetPrimaryPartCFrame(CFrame.new(29021.1191, 14890.668, -378.914062, -0.0331100188, 6.86604622e-08, -0.999451697, 9.21960037e-08, 1, 6.56438388e-08, 0.999451697, -8.99719836e-08, -0.0331100188))
+	end
+  })
