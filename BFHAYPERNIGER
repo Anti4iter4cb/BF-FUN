@@ -37,3 +37,22 @@ Character:SetPrimaryPartCFrame(CFrame.new(28295.6504, 14896.543, 108.866074, 0.2
       		
   	end    
 })
+
+Tab:AddButton({
+	Name = "Mansion",
+	Callback = function()
+      		print("button pressed")
+      		
+local player = game.Players.LocalPlayer
+
+
+local Character = player.Character
+
+
+local Humrp = player.Character:FindFirstChild("HumanoidRootPart")
+
+
+Character:SetPrimaryPartCFrame(CFrame.new(-12547.8418, 337.203308, -7496.11816, 0.9982844, 4.29596412e-08, 0.058550965, -3.84166583e-08, 1, -7.87158498e-08, -0.058550965, 7.63314745e-08, 0.9982844))
+      		
+  	end    
+})
